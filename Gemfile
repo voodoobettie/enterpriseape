@@ -48,3 +48,4 @@ gem 'bootstrap-sass', '~> 2.0.3.1'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'devise'
