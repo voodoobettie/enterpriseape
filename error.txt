@@ -10,7 +10,7 @@
 	from /home/action/.gem/ruby/2.1.1/gems/actionmailer-4.1.0/lib/action_mailer/base.rb:884:in `<class:Base>'
 	from /home/action/.gem/ruby/2.1.1/gems/actionmailer-4.1.0/lib/action_mailer/base.rb:401:in `<module:ActionMailer>'
 	from /home/action/.gem/ruby/2.1.1/gems/actionmailer-4.1.0/lib/action_mailer/base.rb:9:in `<top (required)>'
-	from /home/action/enterpriseape/config/initializers/setup_mail.rb:1:in `<top (required)>'
+	from /home/action/enterpriseape/config/initializers/setup_mail.rb:2:in `<top (required)>'
 	from /home/action/.gem/ruby/2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `load'
 	from /home/action/.gem/ruby/2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `block in load'
 	from /home/action/.gem/ruby/2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:232:in `load_dependency'
