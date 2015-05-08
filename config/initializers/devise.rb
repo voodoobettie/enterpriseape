@@ -4,13 +4,13 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-  # config.secret_key = '27987ca8f0fd31642d259c981f000922f98f11a691a91ee2ca796fd00283bf08fad3ae5fff94fc6bd3a08d84a9394798b2178cf96cde1dcda1b42bdc614b9230'
+  config.secret_key = '27987ca8f0fd31642d259c981f000922f98f11a691a91ee2ca796fd00283bf08fad3ae5fff94fc6bd3a08d84a9394798b2178cf96cde1dcda1b42bdc614b9230'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'hello_there.frankenmedia.com'
+  config.mailer_sender = 'hello@frankenmedia.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -29,7 +29,7 @@ Devise.setup do |config|
   # session. If you need permissions, you should implement that in a before filter.
   # You can also supply a hash where the value is a boolean determining whether
   # or not authentication should be aborted when the value is not present.
-  # config.authentication_keys = [ :email ]
+  config.authentication_keys = :email
 
   # Configure parameters from the request object used for authentication. Each entry
   # given should be a request method and it will automatically be passed to the
@@ -184,7 +184,7 @@ Devise.setup do |config|
   # ==> Configuration for :recoverable
   #
   # Defines which key will be used when recovering the password for an account
-  # config.reset_password_keys = [ :email ]
+  config.reset_password_keys = :email
 
   # Time interval you can reset your password with a reset password key.
   # Don't put a too small interval or your users won't have the time to
