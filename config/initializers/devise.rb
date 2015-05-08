@@ -97,7 +97,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = 'c09ca14616499ac750fc828340415388e460831b918f783a52b14f07906f4d77d0db14ad9c39c1fe7a092a22540f66022b81bde02ad08652a28c563ce136ef1d'
+  config.pepper = 'c09ca14616499ac750fc828340415388e460831b918f783a52b14f07906f4d77d0db14ad9c39c1fe7a092a22540f66022b81bde02ad08652a28c563ce136ef1d'
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -122,11 +122,11 @@ Devise.setup do |config|
   config.reconfirmable = true
 
   # Defines which key will be used when confirming an account
-  # config.confirmation_keys = [ :email ]
+  config.confirmation_keys = [ :email ]
 
   # ==> Configuration for :rememberable
   # The time the user will be remembered without asking for credentials again.
-  # config.remember_for = 2.weeks
+  config.remember_for = 2.weeks
 
   # Invalidates all the remember me tokens when the user signs out.
   config.expire_all_remember_me_on_sign_out = true
